@@ -44,4 +44,11 @@ int main()
     cout << "Nilai awal n = " << n << endl;
 
     do
+    {
+        cout << "Nilai n = " << n << endl;
+        n = rand() % 10;
+        perulanganDo++;
+    } while (n < 7);
+    cout << "Julam perulangan = " << perulanganWhile << endl;
+    cout << "Nilai n terakhir = " << n << endl;
 }
