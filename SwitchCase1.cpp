@@ -34,9 +34,16 @@ int main(){
                 cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
                 break;
             case 2:
-            cout << "Hitung luas lingkaran" << endl;
-            cout << "Masukan jari-jari = ";
-            cin >> jejari;
-            cout << "Luas lingkaran = " << luasLingkaran(jejari) << endl;
+                cout << "Hitung luas lingkaran" << endl;
+                cout << "Masukan jari-jari = ";
+                cin >> jejari;
+                cout << "Luas lingkaran = " << luasLingkaran(jejari) << endl;
             break;
+            case 3:
+                break;
+            default:
+                cout << "Pilihan salah, pilihan harus di antara 1-3.";
+                break;
+            }
+        }while(pilihan != 3);
 }
